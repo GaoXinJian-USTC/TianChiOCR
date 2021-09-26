@@ -1,0 +1,1 @@
+python3 mmocr/utils/inference_for_tianchi.py
