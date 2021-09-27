@@ -339,7 +339,7 @@ class myserver(inferServer):
         # moc data for test, usr should use pred data and key 
         
         resdict = self.model.inference(data)
-        
+        return resdict
 
     def post_process(self, data):
         return data
